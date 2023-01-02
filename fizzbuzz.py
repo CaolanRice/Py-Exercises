@@ -12,3 +12,4 @@ def fizzBuzz(upTo):
             print(i, end=" ")
 
 fizzBuzz(5)
+
