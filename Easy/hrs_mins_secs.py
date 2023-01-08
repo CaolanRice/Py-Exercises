@@ -25,8 +25,6 @@ def getHoursMinutesSeconds(totalSeconds):
     return ' '.join(hms)
 
 
-print(getHoursMinutesSeconds(3662))
-
 assert getHoursMinutesSeconds(30) == '30s'
 assert getHoursMinutesSeconds(60) == '1m'
 assert getHoursMinutesSeconds(90) == '1m 30s'
