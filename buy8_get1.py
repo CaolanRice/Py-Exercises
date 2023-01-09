@@ -1,16 +1,20 @@
 def getCostOfCoffee(numberOfCoffees, pricePerCoffee):
-    total_price = 0
-    until_free = 8
+    # total_price = 0
+    # until_free = 8
 
-    while numberOfCoffees:
-        numberOfCoffees -= 1
-        if until_free == 0:
-            until_free = 8
-        else:
-            total_price += pricePerCoffee
-            until_free -= 1
+    # while numberOfCoffees:
+    #     numberOfCoffees -= 1
+    #     if until_free == 0:
+    #         until_free = 8
+    #     else:
+    #         total_price += pricePerCoffee
+    #         until_free -= 1
 
-    return total_price
+    # return total_price
+
+    free_coffees = numberOfCoffees // 9
+    paid_coffees = numberOfCoffees - free_coffees
+    return paid_coffees * pricePerCoffee
 
 
 assert getCostOfCoffee(7, 2.50) == 17.50
