@@ -1,4 +1,4 @@
-# use of nested for loops to
+# use of nested for loops to print intervals of 15 mins
 def intervals():
     for meridiem in ['am', 'pm']:
         for hour in ['12', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11']:
