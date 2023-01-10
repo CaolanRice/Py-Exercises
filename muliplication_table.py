@@ -1,3 +1,4 @@
+# nested for loops to print a multiplication table row by row, each row starting with the new num in the column range
 def multiplicationTable():
     print(' | 1 2 3 4 5 6 7 8 9 10')
     print('--+------------------------------')
